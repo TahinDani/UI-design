@@ -4,7 +4,13 @@
 	width: 200px;
 	height: 200px;
 	margin: 10px auto 0;
-	animation: 4s hover infinite ease-in-out;
+	animation: 2s hover infinite ease-in-out alternate;
+
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding: .2em;
+	font-family: sans-serif;
 }
 
 .shadow-box {
@@ -15,7 +21,7 @@
 	bottom: 0;
 	height: 5px;
 	box-shadow: 0 70px 20px 5px rgba(0, 0, 0, 0.12);
-	animation: 4s hover infinite ease-in-out, 4s shadow infinite ease-in-out;
+	animation: 2s hover infinite ease-in-out alternate, 2s shadow infinite ease-in-out alternate;
 }
 
 
@@ -23,11 +29,8 @@
 	0% {
 		transform: translateY(5%);
 	}
-	50% {
-		transform: translateY(0px);
-	}
 	100% {
-		transform: translateY(5%);
+		transform: translateY(0px);
 	}
 }
 
@@ -37,15 +40,10 @@
 		right: 20px;
 		box-shadow: 0 60px 15px 5px rgba(0, 0, 0, 0.1);
 	}
-	50% {
+	100% {
 		left: 35px;
 		right: 35px;
 		box-shadow: 0 70px 20px 5px rgba(0, 0, 0, 0.12);
-	}
-	100% {
-		left: 20px;
-		right: 20px;
-		box-shadow: 0 60px 15px 5px rgba(0, 0, 0, 0.1);
 	}
 }
 
