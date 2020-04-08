@@ -6,7 +6,7 @@ let reset = document.getElementById("reset")
 
 drop.addEventListener("click", () => {
 	drop.classList.add("dropped")
-	shadow.style.animation = "shadow 1s"
+	shadow.style.animation = "shadow 1.7s"
 	reveal.classList.add("revealed")
 	content.classList.add("flipped")
 })

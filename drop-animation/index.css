@@ -27,13 +27,13 @@ html, body, p {
 .dropped{
 	transform: translateY(calc(60vh - 100px));
 	clip-path: ellipse(50% 1% at 50% 50%);
-	transition: all 1s;
+	transition: all 1.7s;
 }
 
 .flipped {
 	transform: rotate3d(1, 0, 0, 90deg);
 	opacity: 0;
-	transition: transform 1s, opacity 0s 1s;
+	transition: transform 1.7s, opacity 0s 1.7s;
 }
 
 .shadow {
@@ -66,7 +66,7 @@ html, body, p {
 
 .revealed {
 	opacity: 1;
-	transition: all 1.5s .9s cubic-bezier(0, 0, 0.14, 0.99);
+	transition: all 1.5s 1.6s cubic-bezier(0, 0, 0.14, 0.99);
 }
 
 #content {
